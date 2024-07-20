@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!-- fontawesome   -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+
+    <!-- Estilo customizado -->
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+
+    <title>Bem Vindo(a) ao Prime Video</title>
+    <link rel="icon" href="imagens/amazon-prime-icon.png">
+  </head>
+  <body>
+    
+    <header><!-- inicio Cabecalho -->
+      <nav class="navbar navbar-expand-md navbar-light fixed-top navbar-transparente">
+        <div class="container">
+          
+          <a href="index.html" class="navbar-brand">
+            <img src="imagens/Amazon-logo.png" width="142">
+          </a>
+
+          <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
+            <i class="fas fa-bars text-white"></i>
+          </button>
+
+          <div class="collapse navbar-collapse" id="nav-principal">
+            <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Séries</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Filmes</a>
+                    </li>
+
+                    <li class="nav-item divisor"></li>
+
+                <li class="nav-item">
+                    <a href="" class="nav-link">Inscrever-se</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">Entrar</a>
+                </li>
+            </ul>
+          </div>
+
+        </div>
+      </nav>
+    </header><!--/fim Cabecalho -->
+
+<section id="home" class="d-flex"><!--home: seção principal que usa a classe flexbox do Bootstrap para layout flexível -->
+  <div class="container align-self-center"><!--container: centraliza o conteúdo e aplica um padding horizontal-->
+    <div class="row"><!--row: cria uma linha para organizar colunas -->
+      <div class="col-md-12 capa"><!--col-md-12: coluna que ocupa toda a largura no tamanho médio de tela (md) -->
+
+        <div id="carousel-spotify" class="carousel slide" data-ride="carousel"><!--carousel slide: componente de carrossel do Bootstrap que permite deslizar entre itens -->
+          <div class="carousel-inner"><!--Inner: contém os itens do carrossel -->
+            
+            <div class="carousel-item active"><!--carousel-item active: primeiro item do carrossel que está ativo ao carregar a página -->
+              <h1>Filmes e Séries</h1>
+              <a href="" class="btn btn-lg btn-custom btn-azul"><!--btn btn-lg btn-custom btn-roxo: botão grande personalizado com classe de cor roxa -->
+                R$ 19,90/mês
+              </a>
+
+              <a href="" class="btn btn-lg btn-custom btn-branco"><!--btn btn-lg btn-custom btn-branco: botão grande personalizado com classe de cor branca -->
+                R$ 166,80/anual
+              </a>
+            </div>
+
+            <div class="carousel-item"><!--carousel-item: item do carrossel -->
+              <h1>Experimente Já</h1>
+              <a href="" class="btn btn-lg btn-custom btn-branco"><!--btn btn-lg btn-custom btn-branco: botão grande personalizado com classe de cor branca -->
+                <i class="fas fa-filme"></i> 30 dias Grátis
+              </a>
+            </div>
+
+          </div><!--/Inner: fim do conteúdo do carrossel -->
+
+          <!-- Controles do carrossel -->
+          <a href="#carousel-spotify" class="carousel-control-prev" data-slide="prev"><!--carousel-control-prev: controle para deslizar para o item anterior -->
+            <i class="fas fa-angle-left fa-3x"></i><!--Ícone de seta para esquerda -->
+          </a>
+
+          <a href="#carousel-spotify" class="carousel-control-next" data-slide="next"><!--carousel-control-next: controle para deslizar para o próximo item -->
+            <i class="fas fa-angle-right fa-3x"></i><!--Ícone de seta para direita -->
+          </a>
+
+        </div>
+
+      </div>
+    </div><!--/row: fim da linha -->
+  </div><!--/container: fim do container -->
+</section><!--/home: fim da seção principal -->
+
+ <section id="servicos" class="caixa">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="row albuns">
+            <div class="col-md-6">
+              <img src="imagens/paramount-imagens1.webp" class="img-fluid">
+            </div>
+            <div class="col-md-6">
+              <img src="imagens/telecine_imagem2.avif" class="img-fluid">
+            </div>
+          </div>
+          
+          <div class="row albuns">
+            <div class="col-md-6">
+              <img src="imagens/max_imagen3.avif" class="img-fluid">
+            </div>
+            <div class="col-md-6">
+              <img src="imagens/Discovery-Channel-imagem4.png" class="img-fluid">
+            </div>
+          </div>
+
+        </div>
+        <div class="col-md-6">
+          <h3>Adicione canais que você ama na sua assinatura Prime</h3>
+                <p>Com o Prime Video Channels, os clientes Prime podem assinar os canais que amam sem compromissos de longo prazo, 
+                    ou seja, podendo cancelar a qualquer momento. 
+                    Experimente canais selecionados por 7 dias grátis e assista tudo no mesmo lugar, onde estiver.</p>
+        </div>
+      </div>
+    </div>
+ </section><!--Fim Serviços-->
+ <section id="recursos" class="caixa"><!--inicio recursos-->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+
+          <h3>Loja Prime Video</h3>        
+          <div class="container align-self-center"><!--container: centraliza o conteúdo e aplica um padding horizontal-->
+            <div class="row"><!--row: cria uma linha para organizar colunas -->
+              <div class="col-md-12 capa"><!--col-md-12: coluna que ocupa toda a largura no tamanho médio de tela (md) -->
+        
+                <div id="carousel-spotify" class="carousel slide" data-ride="carousel"><!--carousel slide: componente de carrossel do Bootstrap que permite deslizar entre itens -->
+                  <div class="carousel-inner"><!--Inner: contém os itens do carrossel -->
+                    
+                    <div class="carousel-item active"><!--carousel-item active: primeiro item do carrossel que está ativo ao carregar a página -->
+                        <h4>Ainda mais filmes, agora disponíveis para compra ou aluguel - assinatura Prime não necessária.</h4>
+                        <a href="" class="btn btn-lg btn-custom btn-azul"><!--btn btn-lg btn-custom btn-roxo: botão grande personalizado com classe de cor roxa -->
+                        Compre ou Alugue filmes
+                      </a>
+                    </div>     
+                  </div>
+                </div>
+
+            </div>
+        </div>
+        </div>
+                        <h3>Assista onde quiser</h3>
+                        <h5>Assista no site ou no app Prime Video em seu celular, tablet ou seleção de Smart TVs — em até 3 dispositivos ao mesmo tempo.</h5>
+
+                        <h3>Baixe para assistir quando e onde quiser</h3>
+                        <h5>Assista offline no app Prime Video ao baixar títulos em seu iPhone, iPad, tablet ou dispositivo Android.</h5>
+
+                        <h3>Economia de dados</h3>
+                        <h5>Controle o uso de dados ao baixar e assistir a vídeos em uma seleção de celulares e tablets.</h5>
+</div>
+</div>
+</div>
+ </section><!--final recursos-->
+
+ <footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-2">
+        <h4>Company</h4>
+        <ul class="navbar-nav">
+          <li><a href="">Sobre</a></li>
+          <li><a href="">Empregos</a></li>
+          <li><a href="">Imprensa</a></li>
+          <li><a href="">Novidades</a></li>
+        </ul>
+      </div>
+      <div class="col-md-2">
+        <h4>Comunidade</h4>
+        <ul class="navbar-nav">
+          <li><a href="">Artistas</a></li>
+          <li><a href="">Desenvolvedores</a></li>
+          <li><a href="">Marcas</a></li>
+        </ul>
+      </div>
+      <div class="col-md-2">
+        <h4>Links Úteis</h4>
+        <ul class="navbar-nav">
+          <li><a href="">Ajuda</a></li>
+          <li><a href="">Presentes</a></li>
+          <li><a href="">Play da Web</a></li>
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <ul>
+          <li>
+            <a href=""><img src="imagens/Amazon-logo.png" width="150"></a>
+          </li>
+      </div>
+    </div>
+  </div>
+ </footer>
+
+    
+
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  
+  
+  
+  </body>
+</html>
